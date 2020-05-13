@@ -2,7 +2,7 @@ TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS
     BaseShape.java
         [ ] Create a valid and logical constructor
-        [ ] Create all logical 'Setter' method and have each method's 'scope' correct
+        [ ] Create all logical 'Setter' methods and have each method's 'scope' correct
     Rectangle.java
         [ ] Update this class to inherit from BaseShape.java
         [ ] Update to a valid and logical constructor
