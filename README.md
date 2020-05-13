@@ -1,2 +1,2 @@
-# Magenic_HW2_JavaForAutomationEngineers
-This is the second HW for the Magenic Java for Automation Engineers Class
+# Magenic_HW3_JavaForAutomationEngineers
+This is the third HW for the Magenic Java for Automation Engineers Class
