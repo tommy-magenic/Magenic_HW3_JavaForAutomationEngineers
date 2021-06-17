@@ -19,47 +19,57 @@ PROGRAMMING TASKS
     ShapeFactory.java
         [X] Uncomment any marked code in both CreateShape methods
     ShapeTests.java
-        [ ] Run all tests
+        [X] Run all tests
 
  SHORT ANSWERS
     // TODO FOR HOMEWORK: Answer each question, and note many don't have a 'right answer' so just answer honestly
-    [ ] What is the purpose of a constructor
-         ANSWER HERE:
+    [X] What is the purpose of a constructor
+         ANSWER HERE: To be able to create an instance of a class to then be able to use it in other area's of code.
 
-    [ ] This project uses 'inheritance' for each shape, since they all have 'BaseShape' as their parent.
+    [X] This project uses 'inheritance' for each shape, since they all have 'BaseShape' as their parent.
         In your own words define what you believe 'inheritance' means.
-        ANSWER HERE:
+        ANSWER HERE: Inheritance in this case is used to define functionality, variables, or features which are common
+        among other shapes. Serves a template for functionality which all shapes should have.
 
-    [ ] Research the concept of 'Object Oriented Programming (OOP)', and write down the 4 principles of 'OOP'.
+    [X] Research the concept of 'Object Oriented Programming (OOP)', and write down the 4 principles of 'OOP'.
         ANSWER HERE:
-            1)
-            2)
-            3)
-            4)
+            1) Abstraction
+            2) Inheritance
+            3) Polymorphism
+            4) Encapsulation
 
-    [ ] What are some advantages of 'inheritance'
-        ANSWER HERE:
+    [X] What are some advantages of 'inheritance'
+        ANSWER HERE: One advantage is reusability. Methods can defined in a parent class can be reused classes which
+        inherit from it.
+        Another advantage is ease of understanding.
 
-    [ ] In the ShapeFactory.java class, there are two methods both called CreateShape.
+    [X] In the ShapeFactory.java class, there are two methods both called CreateShape.
         One method takes in 3 parameters - Shape Name, length and height
         One method takes in 2 parameters - Shape Name and length
 
         This concept is called 'polymorphism', research 'polymorphism' and write below why Factory used 'polymorphism'
-        ANSWER HERE:
+        ANSWER HERE: Factory used polymorphism here in order to call the create shape method with two different
+        types of shapes. in one case it used shape name and length while in the other case it used name length and height
 
-    [ ] Does this project ever cover the concept of 'Abstraction'? If yes, how so?
-        ANSWER HERE:
+    [X] Does this project ever cover the concept of 'Abstraction'? If yes, how so?
+        ANSWER HERE: No there is no private data being protected in the shapes class and not being presented to the user.
+        so abstraction is not used.
 
-    [ ] Does this project ever cover the concept of 'Encapsulation'? If yes, how so?
-        ANSWER HERE:
 
-    [ ] Why did you need to 'override' the 'area' and 'perimeter' methods in 'EquilateralTriangle.java' but not the
+    [X] Does this project ever cover the concept of 'Encapsulation'? If yes, how so?
+        ANSWER HERE: By using private variables and then creating methods within the class which access those private variables
+        it uses encapsulation.
+
+    [X] Why did you need to 'override' the 'area' and 'perimeter' methods in 'EquilateralTriangle.java' but not the
         'Square.java' and 'Rectangle.java'?
-        ANSWER HERE:
+        ANSWER HERE: Becuase the formula for a square and for a rectangle are the same, but for a equilateral triangle
+        the formula is different.
 
-    [ ] We made 'ShapeTests' differently than we did 'SquareTest', 'RectangleTest' and 'EquilateralTriangleTest'
+    [X] We made 'ShapeTests' differently than we did 'SquareTest', 'RectangleTest' and 'EquilateralTriangleTest'
         A unit test is testing a single unit and generally that means by classes in java.
         'SquareTest', 'RectangleTest' and 'EquilateralTriangleTest' are all unit tests.
         'ShapeTests' was testing with each shape as a generic 'BaseShape' instead of the previous shape classes.
         Is 'ShapeTests' a unit test of 'ShapeFactory.java'?
         ANSWER HERE:
+        I think we are assuming that the shapefactory class works correctly, and the tests in the shapestest file are
+        unit tests of all the shapes classes.
