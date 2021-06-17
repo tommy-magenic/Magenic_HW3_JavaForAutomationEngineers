@@ -1,23 +1,23 @@
 TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS
     BaseShape.java
-        [ ] Create a valid and logical constructor
-        [ ] Create all logical 'Setter' methods and have each method's 'scope' correct
+        [X] Create a valid and logical constructor
+        [X] Create all logical 'Setter' methods and have each method's 'scope' correct
     Rectangle.java
-        [ ] Update this class to inherit from BaseShape.java
-        [ ] Update to a valid and logical constructor
-        [ ] Add a static main method
+        [X] Update this class to inherit from BaseShape.java
+        [X] Update to a valid and logical constructor
+        [X] Add a static main method
     EquilateralTriangle.java
-        [ ] Update this class to inherit from BaseShape.java
-        [ ] Update to a valid and logical constructor
-        [ ] Override the area method
-        [ ] Override the perimeter method
-        [ ] Add a static main method
+        [X] Update this class to inherit from BaseShape.java
+        [X] Update to a valid and logical constructor
+        [X] Override the area method
+        [X] Override the perimeter method
+        [X] Add a static main method
     SquareTest.java, Rectangle.java and EquilateralTriangleTest.java
-        [ ] Uncomment any code, now that the shape classes are complete.
-        [ ] Run all tests
+        [X] Uncomment any code, now that the shape classes are complete.
+        [X] Run all tests
     ShapeFactory.java
-        [ ] Uncomment any marked code in both CreateShape methods
+        [X] Uncomment any marked code in both CreateShape methods
     ShapeTests.java
         [ ] Run all tests
 
